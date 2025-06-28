@@ -5,8 +5,8 @@
 let button = document.getElementById("myBtn");
 let h1 = document.getElementById("myH1");
 
-let min = 50;
-let max = 99;
+let min = 1;
+let max = 10;
 
 // button.onclick = function() {
 //     h1.textContent =  h1 = (Math.floor(Math.random() * 10))+1;;
