@@ -1,0 +1,25 @@
+#myH1 {
+    display: block;
+    text-align: center;
+    font-size: 6em;
+    cursor: default;
+}
+
+.container {
+    text-align: center;
+}
+#myBtn{
+    font-size: 2em;
+    padding: 15px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFD700;
+    background-color: #4e4e4e;
+    transition: background-color 0.25s;
+}
+#myBtn:hover {
+    background-color: #333333;
+}
+
