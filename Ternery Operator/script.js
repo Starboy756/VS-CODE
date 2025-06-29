@@ -1,5 +1,5 @@
-let purchaseAmount = 99;
+let purchaseAmount = 140;
 
 let newAmount = purchaseAmount >= 100 ? (purchaseAmount - (purchaseAmount * 0.10)) : purchaseAmount ;
 
-console.log(newAmount);
+console.log(`Your Total After Discount is $${newAmount}`);
