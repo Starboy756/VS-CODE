@@ -11,7 +11,7 @@
     <!-- added name="card" so that we can only select one at a time
     also made same id and same for so that we can select that radio or check box by clicking on their name as well -->
     <input type="checkbox" id="subscribe" name="card">
-    <label for="subscribe">Subscribe</label><br>
+    <label for="subscribe">Subscribe</label><br><br>
     <input type="radio" id="visa" name="card">
     <label for="visa">Visa</label><br>
     <input type="radio" id="masterCard" name="card">
@@ -19,8 +19,15 @@
     <input type="radio" id="amex" name="card">
     <label for="amex">American Express</label><br>
     <input type="radio" id="payPal" name="card">
-    <label for="payPal">PayPal</label><br><br>
-    <button type="submit">Submit</button>
+    <label for="payPal">PayPal</label><br>
+    <input type="radio" id="otherPayment" name="card">
+    <label for="otherPayment">if other Please Write</label>
+    <input type="text" id="other"><br><br>
+    
+    <button type="submit" id="submit">Submit</button>
+
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
 
     <script src="script.js"></script>
 </body>
