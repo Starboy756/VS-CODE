@@ -14,3 +14,9 @@ let phoneNumber = "900-84-33-33"; //must be a string like written in double qout
 
 phoneNumber = (phoneNumber.replaceAll("-" , ""));
 console.log(phoneNumber);//("replace this" , "with this")
+
+ phoneNumber1= phoneNumber.padStart(20,"0");//pad the starting of this string with zeros until its 20 character long
+ console.log(phoneNumber1);
+
+phoneNumber= phoneNumber.padEnd(20,"0");//pad the ending of this string with zeros until its 20 character long
+console.log(phoneNumber);
