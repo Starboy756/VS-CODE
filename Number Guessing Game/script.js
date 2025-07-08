@@ -1,20 +1,18 @@
-let minNum = 1 ;
-let maxNum = 100;
-
-let answer = Math.round(Math.random() * (maxNum - minNum + 1));
+const minNum = 1;
+const maxNum = 100;
+const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
 
 let attempts = 0;
 let guess;
 let running = true;
 
 while(running){
-
     guess = window.prompt(`Enter a number Between ${minNum} - ${maxNum}`);
-    guess = Number (guess);
+    guess = Number(guess);
 
     if(isNaN(guess)){
-        console.log(`Please Enter a valid number`)
-    } else if(guess < 0 || guess >100) {
+        window.alert(`Please Enter a valid number`)
+    } else if(guess < minNum || guess > maxNum) {
         window.alert(`Please Enter a valid number`)            
     } else {
         attempts++;
